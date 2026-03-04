@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="hero">
+  <div class="container">
+    <h2>Quick URL Check</h2>
+    <div class="search-area" id="search-area" aria-hidden="true">
+      <input id="search-input" placeholder="Paste URL or type query..." />
+      <button id="search-btn">Check</button>
+    </div>
+    <div id="result" class="result"></div>
+  </div>
+</section>
+{% endblock %}
+
+
+
